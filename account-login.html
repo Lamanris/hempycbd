@@ -57,8 +57,28 @@
 <div class="account">
     <div class="container">
         <div class="account-wrap">
-            <form action="#" class="account-form">
-
+            <form action="#" class="account-form account-form-login">
+                <p class="account-form__title">Login</p>
+                <input type="text" class="account-form__input" placeholder="Username or email address*">
+                <input type="password" class="account-form__input" placeholder="Password*">
+                <p class="account-form__text">Log in with social media</p>
+                <a href="#" class="account-form__btn-social">
+                    <img src="media/icon-google.png" alt="Google">
+                    <span>Google</span>
+                </a>
+                <a href="#" class="account-form__btn-social">
+                    <img src="media/icon-facebook.png" alt="Facebook">
+                    <span>Facebook</span>
+                </a>
+                <label class="account-form__input-check">
+                    <input type="checkbox">
+                    <span class="account-form__input-check__checkmark"></span>
+                    Remember me
+                </label>
+                <button type="submit" class="btn btn-green account-form__btn">
+                    <span>log in</span>
+                    <img src="media/btn-arrow.png" alt="Arrow">
+                </button>
             </form>
         </div>
     </div>

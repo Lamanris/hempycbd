@@ -552,6 +552,15 @@
         max-width: 360px;
     }
     /*Quiz End*/
+
+    /*Account Start*/
+    .account {
+        padding: 20px 0 80px;
+    }
+    .account-wrap {
+        padding: 50px 0 40px;
+    }
+    /*Account End*/
 }
 @media (max-width: 660px) {
     .section-pagination {
@@ -644,6 +653,16 @@
         height: 300px;
     }
     /*Quiz End*/
+
+    /*Account Start*/
+    .account .container {
+        padding: 0 10px;
+    }
+    .account-wrap {
+        border: none;
+        padding: 20px 0 0;
+    }
+    /*Account End*/
 }
 @media (max-width: 500px) {
     .header-bottom {
