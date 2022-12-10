@@ -57,6 +57,60 @@ table {
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff'),
+    url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+    url('../fonts/BebasNeue-Regular.woff') format('woff'),
+    url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /*Fonts End*/
 
 * {
@@ -141,6 +195,9 @@ img {
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
+.btn-green span {
+    margin-bottom: 3px;
+}
 .section-row {
     --section-row-x: 20px;
     --section-row-y: 20px;
@@ -214,6 +271,10 @@ img {
     justify-content: center;
     padding: 3px 0 10px;
 }
+.header-top__trustpilot img {
+    width: 110px;
+    height: auto;
+}
 .header-top__right {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -238,6 +299,10 @@ img {
     font-size: 12px;
     text-transform: uppercase;
     margin-left: 5px;
+}
+.header-top__right-item--globe img {
+    width: 22px;
+    height: auto;
 }
 .header-bottom {
     height: 71px;
@@ -287,12 +352,14 @@ img {
 .hero-content__title {
     font-size: 60px;
     color: #5a911a;
+    line-height: 1.15;
 }
 .hero-content__subtitle {
     font-size: 36px;
     color: #ceb685;
     margin: 65px 0 50px;
     font-variant: small-caps;
+    font-family: "Lato", sans-serif;
 }
 .hero-content__text {
     font-weight: 300;
@@ -395,6 +462,7 @@ img {
     box-shadow: 0px 12px 15px 2px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0px 12px 15px 2px rgb(0 0 0 / 30%);
     -moz-box-shadow: 0px 12px 15px 2px rgba(0,0,0,0.3);
+    color: #3c3c3c;
 }
 .our-products__slider-controllers {
     display: -webkit-box;
@@ -928,7 +996,7 @@ img {
     text-align: center;
 }
 .shipping__title {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-size: 60px;
     margin-bottom: 35px;
 }
@@ -1132,13 +1200,13 @@ img {
     padding: 150px 0 180px;
 }
 .faq__title {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
     font-size: 60px;
     color: white;
     margin-bottom: 10px;
 }
 .faq__subtitle {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
     font-size: 24px;
     color: white;
 }
@@ -1403,7 +1471,7 @@ img {
     margin-bottom: 45px;
 }
 .shop-categories__item {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
     font-size: 30px;
     font-variant: small-caps;
     -webkit-transition: opacity .3s;
@@ -1441,7 +1509,7 @@ img {
     border-radius: 5px;
     padding: 15px 15px 20px;
     text-align: center;
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
     font-variant: small-caps;
     background: #fcfcfa;
 }
@@ -1908,7 +1976,7 @@ img {
     margin: 0 auto;
 }
 .quiz-total__item-title {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -1936,7 +2004,7 @@ img {
     max-width: 100px;
 }
 .quiz-total__item-content__text {
-    font-family: "Cambria Math", "Roboto", sans-serif;
+    font-family: "Cambria Math", serif;
 }
 .quiz-total__item-content__ml {
     margin-left: 20px;
